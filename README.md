@@ -1,5 +1,8 @@
 # seal-profiling
 
+[![CircleCI](https://circleci.com/gh/sealsystems/seal-profiling.svg?style=svg)](https://circleci.com/gh/sealsystems/seal-profiling)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/10xi1t1qtjwaaqa9?svg=true)](https://ci.appveyor.com/project/Plossys/seal-profiling)
+
 seal-profiling captures profiling data.
 
 ## Installation
