@@ -1,22 +1,22 @@
-# seal-profiling
+# @sealsystems/profiling
 
-[![CircleCI](https://circleci.com/gh/sealsystems/seal-profiling.svg?style=svg)](https://circleci.com/gh/sealsystems/seal-profiling)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/10xi1t1qtjwaaqa9?svg=true)](https://ci.appveyor.com/project/Plossys/seal-profiling)
+[![CircleCI](https://circleci.com/gh/sealsystems/node-profiling.svg?style=svg)](https://circleci.com/gh/sealsystems/node-profiling)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/ekl6ge2ty0edw6qa?svg=true)](https://ci.appveyor.com/project/Plossys/node-profiling)
 
-seal-profiling captures profiling data.
+@sealsystems/profiling captures profiling data.
 
 ## Installation
 
 ```bash
-$ npm install seal-profiling
+$ npm install @sealsystems/profiling
 ```
 
 ## Quick Start
 
-First you need to integrate seal-profiling into your application.
+First you need to integrate @sealsystems/profiling into your application.
 
 ```javascript
-const profiling = require('seal-profiling');
+const profiling = require('@sealsystems/profiling');
 ```
 
 It will capture the CPU usage and memory consumption once per minute.

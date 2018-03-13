@@ -1,5 +1,5 @@
 {
-  "name": "seal-profiling",
+  "name": "@sealsystems/profiling",
   "version": "1.0.1",
   "description": "Captures profiling data",
   "author": {
@@ -20,7 +20,7 @@
   "main": "lib/profiling.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sealsystems/seal-profiling.git"
+    "url": "https://github.com/sealsystems/node-profiling.git"
   },
   "dependencies": {
     "getenv": "0.7.0",
@@ -32,5 +32,8 @@
     "eslint-config-seal": "0.0.9",
     "roboter": "0.14.4",
     "roboter-server": "0.14.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
