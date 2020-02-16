@@ -25,7 +25,7 @@
     "url": "https://github.com/sealsystems/node-profiling.git"
   },
   "dependencies": {
-    "getenv": "0.7.0",
+    "getenv": "1.0.0",
     "stethoskop": "1.0.0",
     "uuid": "3.4.0"
   },
