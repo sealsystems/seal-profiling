@@ -30,9 +30,9 @@
     "uuid": "3.4.0"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.6.2",
-    "@sealsystems/mocha": "4.1.3",
-    "@sealsystems/semantic-release": "4.0.20"
+    "@sealsystems/eslint-config-es": "3.6.3",
+    "@sealsystems/mocha": "4.1.4",
+    "@sealsystems/semantic-release": "4.0.21"
   },
   "release": {
     "extends": "@sealsystems/semantic-release/node-module"
