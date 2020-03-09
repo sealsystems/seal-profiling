@@ -4,11 +4,6 @@ on:
   push:
     branches:
     - master
-    # Ignore changes made by releases
-    paths-ignore:
-      - 'CHANGELOG.md'
-      - 'package.json'
-      - 'package-lock.json'
 
 env:
   LOG_LEVELS: fatal
@@ -16,6 +11,9 @@ env:
 
 jobs:
   Test-Linux:
+    # Ignore release commits
+    if: "!startsWith(github.event.head_commit.message, 'Release')"
+
     runs-on: ubuntu-18.04
 
     services:
@@ -52,6 +50,9 @@ jobs:
       run: npm run bot
 
   Test-Windows:
+    # Ignore release commits
+    if: "!startsWith(github.event.head_commit.message, 'Release')"
+
     runs-on: windows-2019
 
     steps:
@@ -122,6 +123,9 @@ jobs:
       run: npm run bot
 
   Release:
+    # Ignore release commits
+    if: "!startsWith(github.event.head_commit.message, 'Release')"
+
     needs:
     - Test-Linux
     - Test-Windows
