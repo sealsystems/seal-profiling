@@ -27,7 +27,7 @@
   "dependencies": {
     "getenv": "1.0.0",
     "stethoskop": "1.0.0",
-    "uuid": "3.4.0"
+    "uuid": "7.0.2"
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.6.3",
