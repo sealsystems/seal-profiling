@@ -3,11 +3,10 @@ name: Nightly
 on:
   schedule:
     # 9pm every day
-    # - cron:  0 21 * * *
-    - cron:  '*/5 * * * *'
+    - cron: 0 21 * * *
 
 env:
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_CI_TOKEN }}
 
 jobs:
   Update-Build-Configuration:
@@ -37,7 +36,7 @@ jobs:
       run: npm ci
 
     - name: Install yeoman
-      run: npm install -g yo generator-seal-node
+      run: npm install -g yo @sealsystems/generator-seal-node
 
     - name: Download hub
       run: |
