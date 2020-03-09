@@ -4,7 +4,7 @@ on:
   schedule:
     # 9pm every day
     # - cron:  0 21 * * *
-    - cron:  '*/10 21 * * *'
+    - cron:  '*/5 * * * *'
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
