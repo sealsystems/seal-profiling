@@ -1,3 +1,14 @@
+## 1.2.2 (2020-03-09)
+
+### Chores
+
+
+#### bump uuid from 3.4.0 to 7.0.2 ([5b96f5c](https://github.com/sealsystems/node-profiling/commit/5b96f5c))
+
+
+
+---
+
 ## 1.2.1 (2020-03-09)
 
 ### Chores
