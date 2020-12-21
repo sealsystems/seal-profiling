@@ -1,3 +1,10 @@
+## 1.2.3 (2020-12-21)
+
+### Chores
+
+
+Trigger release ([3c01e1f](https://github.com/sealsystems/node-profiling/commit/3c01e1f))
+
 ## 1.2.2 (2020-03-09)
 
 ### Chores
