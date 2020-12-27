@@ -22,7 +22,7 @@
   "main": "lib/profiling.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sealsystems/node-profiling"
+    "url": "https://github.com/sealsystems/profiling"
   },
   "dependencies": {
     "getenv": "1.0.0",
