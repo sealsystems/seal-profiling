@@ -1,3 +1,10 @@
+## 1.2.5 (2021-01-16)
+
+### Chores
+
+
+Update build config ([0170b12](https://github.com/sealsystems/node-profiling/commit/0170b12))
+
 ## 1.2.4 (2020-12-26)
 
 ### Chores
