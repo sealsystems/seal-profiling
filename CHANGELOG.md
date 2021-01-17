@@ -1,3 +1,10 @@
+## 1.2.6 (2021-01-17)
+
+### Chores
+
+
+bump node-fetch from 2.6.0 to 2.6.1 ([692e634](https://github.com/sealsystems/node-profiling/commit/692e634))
+
 ## 1.2.5 (2021-01-16)
 
 ### Chores
